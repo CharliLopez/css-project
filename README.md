@@ -1,1 +1,1 @@
-# css-project
+# This is a landing page project for odin project.
