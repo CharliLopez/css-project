@@ -122,38 +122,6 @@ header {
   color: #1f2937;
 }
 
-
-.three {
-  background-color: #e5e7eb;
-  width: auto;
-  height: 450px;
-  display: flex;
-  justify-content: center;  /* Horizontal */
-  align-items: center; 
-  padding: 20px;
-}
-
-.testimonial {
-  color: #1f2937;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 36px;
-  text-align: center;
-  padding: 20px 40px;
-  max-width: 800px;
-}
-
-
-.speaker {
-  font-size: 20px;
-  text-align: right;
-  font-weight: 800;
-}
-
-
-
-
-/*
 .three {
   background-color: #e5e7eb;
   height: 450px;
@@ -182,10 +150,60 @@ header {
   text-align: right;
   font-weight: 800;
   color: #1f2937;
-} */
+} 
+
+.four {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  color: #e5e7eb;
+}
+
+.bluebox {
+  display: flex;
+  background-color: #3882f6;
+  padding: 50px;
+  border-radius: 10px;
+  width: 900px;
+  height: 150px;
+  align-items: center;
+}
+
+.bluebox-content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bluebutton {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bluebutton button {
+  border: solid 1px #e5e7eb;
+  background-color: #3882f6 ;
+  color: #e5e7eb;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.bluetext {
+  width: 300px;
+  height: 50px;
+}
 
 
-
-
-
-
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+  padding: 20px;
+  margin-top: 10px;
+}
